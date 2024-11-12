@@ -19,3 +19,17 @@ Before setting up this pipeline, ensure that you have the following tools instal
 ```
 git clone https://github.com/rana854/ci-cd.git
 ```
+
+###Jenkins Setup
+
+1. **Create a new Jenkins pipeline job in your Jenkins instance.**
+2. **Set Up Credentials in Jenkins:**
+In Jenkins, go to Manage Jenkins > Manage Credentials > (global) > Add Credentials.
+Add Docker Hub credentials with the ID docker_1_Hub (username and password or access token).
+3. **Configure Docker on Jenkins:**
+Ensure Docker is installed on the Jenkins agent.
+Verify Docker is accessible on the agent using the docker --version command.
+4. **Configure Kubernetes (Minikube):**
+Ensure kubectl is installed and Minikube is running.
+Set the path to your Minikube kubeconfig in the bat commands (C:\\Users\\\\.kube\\config).
+

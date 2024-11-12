@@ -14,10 +14,7 @@ Before setting up this pipeline, ensure that you have the following tools instal
 - **GitHub Repository**: This pipeline pulls code from a GitHub repository.
 
 ## Setup
-
-### Clone the Repository
-
-Clone this repository to your local machine:
+###Clone this repository to your local machine:
 
 ```
 git clone https://github.com/rana854/ci-cd.git
